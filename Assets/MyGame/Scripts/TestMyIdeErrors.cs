@@ -7,14 +7,9 @@ public class TestMyIdeErrors : MonoBehaviour
 {
     string Tag = "TestMyIdeErrors";
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-    int a = 1
+    int a = 1;
     int b = 2;
-    flaot d = 5;
+    float d = 5f;
 
     TextMeshProUGUI TextPro;
 
@@ -22,12 +17,12 @@ public class TestMyIdeErrors : MonoBehaviour
     void Start()
     {
         int c = a + b;
-        Debug.Log("a + b = " 3);
+        Debug.Log("a + b = " + 3);
         Debug.Log(Tag + "- Done ;)");
     }
-
     // Update is called once per frame
     void Update()
     {
 
     }
+}
